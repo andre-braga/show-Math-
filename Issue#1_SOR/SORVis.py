@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.animation import FuncAnimation
 
-# Intialize figure to be plotted on
+# Intialize figure to be plotted on.
 fig = plt.figure(facecolor='white')
 ax = fig.add_subplot(projection='3d')
 
 
 def init():
-    # Set inital viewing angle
+    # Set inital viewing angle.
     ax.view_init(elev=7, azim=-100)
 
     # Set axis max and mins.
@@ -46,7 +46,7 @@ def animate(i):
     return [ax.plot_surface(X, Y, Z, color='red', rstride=2, cstride=2)]
 
 
-# Animate graph
+# Animate graph.
 anim = FuncAnimation(fig, animate,
                      np.linspace(0, 2 * np.pi, 10), interval=130, init_func=init)
 
