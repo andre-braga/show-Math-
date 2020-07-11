@@ -1,2 +1,2 @@
 # show-Math-
-Repository containing programs made for the show(Math) newsletter.
+Fix this readme later.
