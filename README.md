@@ -1,2 +1,2 @@
-# show-Math-
+# show(Math)
 Fix this readme later.
