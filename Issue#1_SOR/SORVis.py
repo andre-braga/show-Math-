@@ -15,7 +15,7 @@ ax = fig.add_subplot(projection='3d')
 
 
 def init():
-    # Set axis max and mins.
+    # Set inital viewing angle
     ax.view_init(elev=7, azim=-100)
 
     # Set axis max and mins.
