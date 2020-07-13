@@ -48,7 +48,7 @@ def animate(i):
 
 # Animate graph.
 anim = FuncAnimation(fig, animate,
-                     np.linspace(0, 2 * np.pi, 10), interval=130, init_func=init)
+                     np.linspace(0, 2 * np.pi+4, 10), interval=130, init_func=init)
 
 # Uncomment to save graph as gif. Change the writer to your liking.
 # anim.save("SORVis.gif", writer="imagemagick")
