@@ -2,6 +2,8 @@
 WIP - Will be updated with more info.
 Requires numpy and matplotlib.
 Optionally requires an image writer to save animation as video/gif.
+
+This is a faster and simpler version than the one that appeared on the newsletter.
 '''
 
 import numpy as np
