@@ -1,6 +1,6 @@
 # show(Math)
 ###### "Visualizing all the math you forgot from college."
-##### Read all the issues at https://showmath.andre-braga.com/
+##### Read all the issues at https://showmath.dedebraga.com/
 
 show(Math) is a newsletter + website I created for my 2020 Yale Summer Session class "Intro Interactive Design: WWW." The class was focused on introductory web development, going over the basics (HTML/CSS/JS) while also teaching us about the birth and rise of the internet and the modern web. The capstone project for the class was to design a newsletter: we were required to send out 6 issues via email and keep an archive of every newsletter on a website. 
 
